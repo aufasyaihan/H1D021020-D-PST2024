@@ -5,9 +5,6 @@ LiquidCrystal_I2C lcd(0x27, 15, 1); // (address, columns, rows)
 int SDA_pin = D4;
 int SCL_pin = D3;
 
-// put function declarations here:
-int myFunction(int, int);
-
 void setup() {
   Wire.begin(SDA_pin, SCL_pin);
   lcd.init();

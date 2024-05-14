@@ -34,8 +34,3 @@ void loop() {
   
   delay(1000);
 }
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
